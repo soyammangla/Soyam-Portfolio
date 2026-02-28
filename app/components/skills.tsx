@@ -11,8 +11,8 @@ import {
   SiGithub,
 } from "react-icons/si";
 
-import { FaJava } from "react-icons/fa"; // Java icon
-import { HiOutlineCode } from "react-icons/hi"; // DSA icon
+import { FaJava } from "react-icons/fa";
+import { HiOutlineCode } from "react-icons/hi";
 
 export default function Skills() {
   const skills = [
@@ -43,13 +43,10 @@ export default function Skills() {
             key={i}
             className="relative flex flex-col items-center justify-center gap-3 p-8 bg-black border border-white/20 rounded-2xl shadow-lg hover:scale-110 hover:shadow-white/40 transition-transform duration-500"
           >
-            {/* Glow Effect */}
             <div className="absolute inset-0 rounded-2xl bg-white/5 blur-xl opacity-0 hover:opacity-100 transition duration-500"></div>
-            {/* Icon */}
             <div className="relative z-10 text-white hover:text-white/90 transition duration-300">
               {skill.icon}
             </div>
-            {/* Skill Name */}
             <span className="relative z-10 text-white font-semibold text-xl mt-3">
               {skill.name}
             </span>

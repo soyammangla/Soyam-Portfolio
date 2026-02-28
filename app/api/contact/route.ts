@@ -5,7 +5,6 @@ export async function POST(req: Request) {
   try {
     const { name, email, message } = await req.json();
 
-    // ✅ Validation
     if (!name || !email || !message) {
       return NextResponse.json(
         { message: "All fields are required" },
@@ -13,7 +12,6 @@ export async function POST(req: Request) {
       );
     }
 
-    // ✅ Check env variables
     if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
       console.error("Email credentials missing in .env.local");
       return NextResponse.json(
@@ -22,7 +20,6 @@ export async function POST(req: Request) {
       );
     }
 
-    // ✅ Transporter Config (More Reliable)
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 587,
@@ -33,7 +30,6 @@ export async function POST(req: Request) {
       },
     });
 
-    // ✅ Send Mail
     await transporter.sendMail({
       from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,

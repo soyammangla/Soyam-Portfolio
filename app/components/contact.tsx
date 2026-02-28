@@ -101,10 +101,6 @@ export default function Contact() {
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
-
-          {/* {status && (
-          <p className="text-center text-sm text-white/80 mt-2">{status}</p>
-        )} */}
         </form>
 
         {/* Contact Info */}

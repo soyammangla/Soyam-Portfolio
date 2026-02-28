@@ -10,7 +10,6 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full z-50 bg-black border-b border-white">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-white">
           Soyam
         </Link>

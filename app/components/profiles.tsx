@@ -23,7 +23,7 @@ export default function Profiles() {
       name: "LeetCode",
       icon: <FaCode size={30} />,
       link: "https://leetcode.com/u/Soyam_Mangla_GLA",
-    }, // placeholder icon
+    },
   ];
 
   return (
