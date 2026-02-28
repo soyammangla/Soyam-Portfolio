@@ -10,7 +10,7 @@ const projects = [
     tech: ["React", "Next.js", "Tailwind CSS", "Firebase Auth"],
     github: "https://github.com/soyammangla/QuickDo",
     demo: "https://quick-do-three.vercel.app",
-    image: "/Quickdo.png",
+    image: "/quickdo.png",
   },
   {
     title: "QuizSphere",
