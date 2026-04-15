@@ -6,7 +6,7 @@ const achievements = [
   {
     title: "LeetCode Rating 1600+ | Top 20.44% Globally",
     description:
-      "Solved 300+ algorithmic problems with consistent performance in contests, ranking within the top 20.44% globally.",
+      "Solved 450+ algorithmic problems with consistent performance in contests, ranking within the top 20.44% globally.",
     details: ["300+ Problems", "Rating 1600+", "Global Rank Top 20.44%"],
   },
   {
