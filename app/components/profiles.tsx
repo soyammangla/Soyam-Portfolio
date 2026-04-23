@@ -22,7 +22,7 @@ export default function Profiles() {
     {
       name: "LeetCode",
       icon: <FaCode size={30} />,
-      link: "https://leetcode.com/u/Soyam_Mangla_GLA",
+      link: "https://leetcode.com/u/Soyam_/",
     },
   ];
 
