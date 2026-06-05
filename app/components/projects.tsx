@@ -25,7 +25,7 @@ const projects = [
     title: "TrackPoint",
     description:
       "A full-stack CRM system to manage clients, tasks, and analytics efficiently.",
-    tech: ["React", "Next.js", "Node.js", "MongoDB", "Express"],
+    tech: ["React", "Next.js", "Tailwind CSS", "PostgreSQL"],
     github: "https://github.com/soyammangla/TrackPoint",
     demo: "https://track-point.vercel.app",
     image: "/Trackpoint.png",
